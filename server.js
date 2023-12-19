@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(cors({origin:"*"}))
 app.use(helemt())
 app.use('/',router);
+global.io = io; // Making io global
 
 io.on("connection", socketEvents(io));
 

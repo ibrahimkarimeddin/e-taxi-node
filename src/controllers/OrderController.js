@@ -1,11 +1,10 @@
-const io = require('socket.io');
 const Cache = require('memory-cache');
 const { PrismaClient } = require('@prisma/client');
 // Import necessary functions or dependencies
 
 async function handleRoot(req, res) {
   // Handle root endpoint logic
-  res.json('Welcome TO IBRAHIM');
+  res.json('Welcome TO express');
 }
 
 async function handleNewOrder(req, res) {
