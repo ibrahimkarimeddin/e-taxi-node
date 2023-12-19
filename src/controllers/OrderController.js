@@ -5,7 +5,7 @@ const { PrismaClient } = require('@prisma/client');
 
 async function handleRoot(req, res) {
   // Handle root endpoint logic
-  res.json('Welcome TO express');
+  res.json('Welcome TO IBRAHIM');
 }
 
 async function handleNewOrder(req, res) {
